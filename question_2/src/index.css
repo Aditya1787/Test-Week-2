@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+.container {
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 16px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.profile-card {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  background: #111827;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.profile-card img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.repo-section {
+  margin-top: 20px;
+}
+
+.repo-card {
+  background: #111827;
+  color: white;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  width: 500px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
